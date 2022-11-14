@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+}   
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('img1.jpeg');
+    height: 85vh;
+    background-size: cover;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(27, 38, 62);
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    color: white;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    justify-content: space-between;
+    background-image: url('./footer-img.png');
+}
+.social-icons{display: flex;
+flex-direction: column;
+list-style: none;
+}
+.ul2{list-style: none;
+display: flex;
+flex-direction: row;
+color: white;
+margin-top: 10px;}
+.hover{color: white;
+position: absolute;
+bottom:0;
+right: 16px;}
+
+.baruundoor{margin-right: 50px;
+margin-top: 10px;
+font-size: small;
+color: grey;}
+input{margin-top: 30px;
+border: 0.5px solid grey;
+}
+.email{height: 30px;
+width: 210px;
+}
+.submit{height: 30px;
+width: 100px;
+border-left: 0;
+right: 10px;
+font-family: initial;
+color: white;
+background-color:rgb(182, 149,98) ;}
+
+.zuundood{margin-left: 50px;
+margin-top: 10px;
+font-size: small;
+color: grey;}
+p:hover{background-color:rgb(40, 50, 78);
+padding: 3px;}
+
+.zuundood a{color:rgb(182, 149,98);
+    text-decoration: none;
+    font-size: small;}
+    .dugaar{color:rgb(182, 149,98);
+        text-decoration: none;
+        font-size: small;}
+        .ul2 a {color: grey; 
+        padding: 7px;} 
+        p{font-family: initial;}
+        header{         position: absolute;
+              top: 8px;
+              right: 200px;
+              font-size: 18px;
+            }
